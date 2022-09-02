@@ -1,0 +1,15 @@
+C:\Users\Velreine\RiderProjects\srp6test\srp6test\bin\Debug\net6.0\srp6test.exe
+C:\Users\Velreine\RiderProjects\srp6test\srp6test\bin\Debug\net6.0\srp6test.deps.json
+C:\Users\Velreine\RiderProjects\srp6test\srp6test\bin\Debug\net6.0\srp6test.runtimeconfig.json
+C:\Users\Velreine\RiderProjects\srp6test\srp6test\bin\Debug\net6.0\srp6test.dll
+C:\Users\Velreine\RiderProjects\srp6test\srp6test\bin\Debug\net6.0\srp6test.pdb
+C:\Users\Velreine\RiderProjects\srp6test\srp6test\obj\Debug\net6.0\srp6test.csproj.AssemblyReference.cache
+C:\Users\Velreine\RiderProjects\srp6test\srp6test\obj\Debug\net6.0\srp6test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Velreine\RiderProjects\srp6test\srp6test\obj\Debug\net6.0\srp6test.AssemblyInfoInputs.cache
+C:\Users\Velreine\RiderProjects\srp6test\srp6test\obj\Debug\net6.0\srp6test.AssemblyInfo.cs
+C:\Users\Velreine\RiderProjects\srp6test\srp6test\obj\Debug\net6.0\srp6test.csproj.CoreCompileInputs.cache
+C:\Users\Velreine\RiderProjects\srp6test\srp6test\obj\Debug\net6.0\srp6test.dll
+C:\Users\Velreine\RiderProjects\srp6test\srp6test\obj\Debug\net6.0\refint\srp6test.dll
+C:\Users\Velreine\RiderProjects\srp6test\srp6test\obj\Debug\net6.0\srp6test.pdb
+C:\Users\Velreine\RiderProjects\srp6test\srp6test\obj\Debug\net6.0\srp6test.genruntimeconfig.cache
+C:\Users\Velreine\RiderProjects\srp6test\srp6test\obj\Debug\net6.0\ref\srp6test.dll
