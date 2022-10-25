@@ -1,6 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "srp6test", "srp6test\srp6test.csproj", "{A9507DB1-C2EC-40FC-8C2E-606D814C38CF}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "srp6test", "srp6test\srp6test.csproj", "{A9507DB1-C2EC-40FC-8C2E-606D814C38CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP6.Test", "SRP6.Test\SRP6.Test.csproj", "{A4F9B004-E982-44F4-BB26-0D20A7FB8A60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +17,15 @@ Global
 		{A9507DB1-C2EC-40FC-8C2E-606D814C38CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9507DB1-C2EC-40FC-8C2E-606D814C38CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9507DB1-C2EC-40FC-8C2E-606D814C38CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F9B004-E982-44F4-BB26-0D20A7FB8A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F9B004-E982-44F4-BB26-0D20A7FB8A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F9B004-E982-44F4-BB26-0D20A7FB8A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F9B004-E982-44F4-BB26-0D20A7FB8A60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F6BF206-EE90-4036-9ADD-35DA10E5AC5F}
 	EndGlobalSection
 EndGlobal

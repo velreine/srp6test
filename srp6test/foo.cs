@@ -25,7 +25,7 @@ namespace srp6test;
 /// M1 => Client proof (proof first sent by client, calculated by both)
 /// M2 => (proof first sent by server, calculated by both)
 /// M => (Client OR Server) proof
-/// S => S key (????)
+/// S => S key (Client or Server S-key is used to derive the session key K)
 /// K => Session key
 /// </summary>
 public class Foo
@@ -58,12 +58,12 @@ public class Foo
     /// <summary>
     /// The generator should always be 7.
     /// </summary>
-    private static readonly BigInteger GENERATOR_VALUE_ALWAYS_7 = new(7);
+    private static readonly BigInteger GENERATOR_VALUE_ALWAYS_7 = new(new byte[] {0x07}, true, true);
 
     /// <summary>
     /// The K value used in the algorithm should always be 3 (why? i don't know.)
     /// </summary>
-    private static readonly BigInteger K_VALUE_ALWAYS_3 = new(3);
+    private static readonly BigInteger K_VALUE_ALWAYS_3 = new(new byte[] {0x03}, true, true);
 
 
     /// <summary>
@@ -114,9 +114,13 @@ public class Foo
 
         var kv = K_VALUE_ALWAYS_3 * passwordVerifier;
 
-        var gbN = BigInteger.ModPow(GENERATOR_VALUE_ALWAYS_7, serverPrivateKey, LARGE_SAFE_PRIME_BIG_ENDIAN);
+        var gbN = BigInteger.ModPow(GENERATOR_VALUE_ALWAYS_7, serverPrivateKey, LARGE_SAFE_PRIME_LITTLE_ENDIAN);
 
-        var B = (kv + gbN) % LARGE_SAFE_PRIME_BIG_ENDIAN;
+        var kv_plus_gbN = (kv + gbN);
+
+        var B = kv_plus_gbN % LARGE_SAFE_PRIME_LITTLE_ENDIAN;
+        
+        //var B = (kv + gbN) % LARGE_SAFE_PRIME_BIG_ENDIAN;
 
         return B;
         
